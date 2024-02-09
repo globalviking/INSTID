@@ -64,8 +64,8 @@ EXAMPLE_DOC_STRING = """
         >>> from insightface.app import FaceAnalysis
         >>> from pipeline_stable_diffusion_xl_instantid import StableDiffusionXLInstantIDPipeline, draw_kps
 
-        >>> # download 'antelopev2' under ./models
-        >>> app = FaceAnalysis(name='antelopev2', root='./', providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+        >>> # download 'buffalo_l' under ./models
+        >>> app = FaceAnalysis(name='buffalo_l', root='./', providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
         >>> app.prepare(ctx_id=0, det_size=(640, 640))
         
         >>> # download models under ./checkpoints
