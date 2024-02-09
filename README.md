@@ -1,8 +1,32 @@
 InstantID for Windows 11
+===
 
-Install Python 3.11, 3.12 or later is not compatible.
+Instructions:
+---
 
+Install Python 3.11 (3.12 or later is not compatible)
 
+Install or upgrade PIP
+
+Clone repository
+
+Create virtual environment
+
+Install dependecies and requirements.
+
+Run app.
+
+```
+python.exe -m pip install --upgrade pip
+git clone https://github.com/globalviking/INSTID
+python -m venv env
+pip install torch torchvision torchaudio xformers --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+python app.py
+```
+
+Flags
+---
 
 --inbrowser    		Automatically open the url in browser, if --share is used, the public url will be automatically open instead
 
